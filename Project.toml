@@ -3,7 +3,11 @@ uuid = "05495954-d9f0-4bff-910a-baafe1f339c0"
 authors = ["P0kenzo", "SergeSuuu", "yannisp855"]
 version = "1.0.0-DEV"
 
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
 [compat]
+DataFrames = "1.7.0"
 julia = "1.10"
 
 [extras]

@@ -1,6 +1,7 @@
 module Yahtzee
 
-    include("main.jl")
-
+using DataFrames
+export Jouer
+include("main.jl")
 
 end
